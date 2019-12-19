@@ -29,6 +29,13 @@ sections:
   match: "**/*.md"
   templates:
   - post
+- type: heading
+  label: Dev
+- type: directory
+  path: ''
+  label: Everything?
+  create: all
+  match: "**/*"
 upload_dir: blog/.vuepress/public/images
 public_path: "/images"
 front_matter_path: ''
